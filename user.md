@@ -17,4 +17,11 @@
 ```
 
 ### Routes
-tbd
+####GET
+
+|Ressource   | Description  |
+|---|---|
+|/profile/:ID   | returns profile information for requested user ID  |
+
+####POST
+####UPDATE
