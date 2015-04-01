@@ -5,7 +5,6 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/myprofile/   | returns own profile information  | json object | statusCode: 404 |
 |/profile/:ID   | returns profile information for requested user ID  | json object | statusCode: 404 | 
 |/me           | returns profile of current user  | json object | statusCode: 404 |
 
