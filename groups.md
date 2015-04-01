@@ -10,11 +10,9 @@
 |/myGroups/   | returns active subscribed groups  |
 |/mySuggestedGroups/   | returns suggested groups  |
 
-####POST
-####UPDATE
 
+### Dummy Json Results
 
-### Json Results
 #### /myGroups/
 ```
 [

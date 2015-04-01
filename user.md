@@ -1,6 +1,14 @@
 # User
 
-### DB
+### Routes
+####GET
+
+|Ressource   | Description  |
+|---|---|
+|/myprofile/   | returns own profile information  |
+|/profile/:ID   | returns profile information for requested user ID  |
+
+### Dummy Json Results
 ```
 {
    _id: '4234324342',
@@ -16,13 +24,3 @@
 
 ```
 
-### Routes
-####GET
-
-|Ressource   | Description  |
-|---|---|
-|/myprofile/   | returns own profile information  |
-|/profile/:ID   | returns profile information for requested user ID  |
-
-####POST
-####UPDATE
