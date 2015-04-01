@@ -3,10 +3,19 @@
 ### Routes
 ####GET
 
-|Ressource   | Description  |
-|---|---|
-|/myprofile/   | returns own profile information  |
-|/profile/:ID   | returns profile information for requested user ID  |
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/myprofile/   | returns own profile information  | json object | statusCode: 404 |
+|/profile/:ID   | returns profile information for requested user ID  | json object | statusCode: 404 | 
+|/me           | returns profile of current user  | json object | statusCode: 404 |
+
+
+####POST
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/login   | validate login information  | statusCode: 200 | statusCode: 404 |
+
+
 
 ### Dummy Json Results
 ```
