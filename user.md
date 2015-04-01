@@ -21,6 +21,7 @@
 
 |Ressource   | Description  |
 |---|---|
+|/myprofile/   | returns own profile information  |
 |/profile/:ID   | returns profile information for requested user ID  |
 
 ####POST
