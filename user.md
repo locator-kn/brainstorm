@@ -13,6 +13,7 @@
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/login   | validate login information  | statusCode: 200 | statusCode: 404 |
+|/me   | update user information  | statusCode: 200 | statusCode: 404 |
 
 
 
