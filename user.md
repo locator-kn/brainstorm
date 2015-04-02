@@ -28,10 +28,16 @@
    mail: 'info@steffen.de',
    major: 'AIN',
    semester: '6',
-   subscribed_groups: {
-       '142001': 'Mathematik 1',
-       '142034': 'Digitaltechnik'
-   },
+   subscribed_groups: [
+       {
+           _id: '142001',
+           name: 'Mathematik 1'
+       },
+       {
+           _id: '142034',
+           name: 'Digitaltechnik 1'
+       }
+   ],
    password: 'secret',
    type: 'user'
 }
