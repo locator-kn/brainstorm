@@ -1,5 +1,22 @@
-'''
-{
+# User
+
+
+
+### Routes
+####GET
+
+|Ressource   | Description  |
+|---|---|
+|/myGroups/   | returns active subscribed groups  |
+|/mySuggestedGroups/   | returns suggested groups  |
+
+
+### Dummy Json Results
+
+#### /posts(_groupID)/
+```
+[
+                        {
                             "_id": "551bfb6b2926b18360873cbf",
                             "date": "2014-04-23T18:25:43.511Z",
                             "title": "hey yo",
@@ -26,4 +43,7 @@
                             "content": "Ut occaecat sit aliquip id quis magna irure dolore sint excepteur.",
                             "comment_number": "0"
                         }
-'''
+                    ]
+
+```
+
