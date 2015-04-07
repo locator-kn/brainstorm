@@ -8,6 +8,7 @@
 |Ressource   | Description  |
 |---|---|
 |/group/posts/:groupID   | returns posts for the board view of a group  |
+|/group/post/:postID   | returns a specific thread with all comments |
 
 
 ### Dummy Json Results
