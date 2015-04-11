@@ -7,8 +7,8 @@
 
 |Ressource   | Description  |
 |---|---|
-|/myGroups/   | returns active subscribed groups  |
-|/mySuggestedGroups/   | returns suggested groups  |
+|/groups/   | returns active subscribed groups  |
+|/groups/:userid   | returns suggested groups  |
 
 
 ### Dummy Json Results
