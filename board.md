@@ -38,6 +38,7 @@
   "author_thumbnail": "data:image/jpg;base64,/9j/4QAYRXhpZgAASUkqAAgAAAAAAAAA...",
   "content": "Cillum consectetur proident sit adipisicing ut exercitation.",
   "comment_count": "0",
+  "group": "123456",
   "type": "post"
 }
 
