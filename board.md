@@ -8,14 +8,14 @@
 |/boards/:postID   | return particular post with comments    | json object | statusCode: 404 | 
 |/boards/posts/:postID  | returns post with postID    | json object | statusCode: 404 |
 |/boards/groups/:groupID  | returns all post of particular group     | json object | statusCode: 404 |
-|/boards/comments/:postID  | returns all comments of particular post     | json object | statusCode: 404 |
+|/boards/posts/:postID/comments  | returns all comments of particular post     | json object | statusCode: 404 |
 
 ####POST
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/posts/:groupID  | create new post  | statusCode 200 | statusCode: 404 |
-|/boards/comments/:postID  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
+|/boards/posts  | create new post  | statusCode 200 | statusCode: 404 |
+|/boards/posts/:postID/comments  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
 
 ####PUT
 
