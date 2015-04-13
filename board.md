@@ -14,8 +14,15 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/posts/:groupId  | create new post  | statusCode 200 | statusCode: 404 |
+|/boards/posts/:groupID  | create new post  | statusCode 200 | statusCode: 404 |
 |/boards/comments/:postID  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
+
+####PUT
+
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/boards/posts/:postID  | update post  | statusCode 200 | statusCode: 404 |
+|/boards/comments/:commentID  | update comment  | statusCode 200 | statusCode: 404 |
 
 
 ### Dummy Json Results
