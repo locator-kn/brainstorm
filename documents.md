@@ -1,6 +1,6 @@
 ### Dummy json results
 
-'''
+```
 [
 	{
 	    "_id": "551bd8d98fe8ee54fe79fbe0",
@@ -30,4 +30,4 @@
 
 	}
 ]
-'''
+```
