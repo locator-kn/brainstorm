@@ -10,6 +10,13 @@
 |/boards/groups/:groupID  | returns all post of particular group     | json object | statusCode: 404 |
 |/boards/comments/:postID  | returns all comments of particular post     | json object | statusCode: 404 |
 
+####POST
+
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/boards/posts  | create new post  | statusCode 200 | statusCode: 404 |
+|/boards/comments/:postID  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
+
 
 ### Dummy Json Results
 
