@@ -14,7 +14,7 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/posts  | create new post  | statusCode 200 | statusCode: 404 |
+|/boards/posts/:groupId  | create new post  | statusCode 200 | statusCode: 404 |
 |/boards/comments/:postID  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
 
 
