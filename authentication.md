@@ -2,10 +2,6 @@
 
 Authentication is done by using `hapi-auth-cookie`. There is no encryption from client to server when sending credetials for login. Therefor we definitly need tls support.
 
-
-
-# Board
-
 ### Routes
 The following routes are defined
 
