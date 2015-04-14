@@ -5,8 +5,14 @@
 |Ressource   | Description  |
 |---|---|
 |/groups/   | returns active subscribed groups  |
-|/groups/:userid   | returns suggested groups   |
-|/groups/:id   | return group   |
+|/groups/:groupID   | return a particular group   |
+
+####POST
+
+|Ressource   | Description  |
+|---|---|
+|/groups/:groupID   | create group with groupID   |
+
 
 
 ### Dummy Json Results
