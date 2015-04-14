@@ -1,3 +1,28 @@
+# Documents
+
+### Routes
+####GET
+
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/groups/:groupID/documents  | returns all documents in this particular group    | json object | statusCode: 404 |
+|/groups/:groupID/documents/:documentId  | return a particular document   | json object | statusCode: 404 |
+|oder|||
+|/documents  | return all documents   | json object | statusCode: 404 |
+|/documents/:documentId  | return a particular document   | json object | statusCode: 404 |
+
+####POST
+
+|Ressource   | Description  | on Failure |
+|---|---|---|---|
+|/groups/:groupID/documents/:documentId  | upload of a document into that group   |  statusCode: 404 |
+|/documents/:documentId  | upload a document   |  statusCode: 404 |
+
+####PUT
+
+Update bei Dokumenten???
+
+
 ### Dummy json results
 
 ```
