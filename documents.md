@@ -5,8 +5,8 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/groups/:groupID/documents  | returns all documents in this particular group    | json object | statusCode: 404 |
-|/groups/:groupID/documents/:documentId  | return a particular document   | json object | statusCode: 404 |
+|/groups/:groupID/documents  | returns all documents in this particular group *only the names?*   | json object | statusCode: 404 |
+|/groups/:groupID/documents/:documentId  | return a particular document *The actual document*  | json object | statusCode: 404 |
 |oder|||
 |/documents  | return all documents   | json object | statusCode: 404 |
 |/documents/:documentId  | return a particular document   | json object | statusCode: 404 |
