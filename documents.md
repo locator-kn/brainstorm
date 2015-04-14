@@ -2,7 +2,7 @@
 
 ### Routes
 ####GET
-
+Es muss unterschieden werden zwiwschen, Dokumente auf der Seite anzeigen (Meta info) und Dokumente tatsächlich runterladen
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/groups/:groupID/documents  | returns all documents in this particular group *only the names?*   | json object | statusCode: 404 |
