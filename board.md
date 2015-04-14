@@ -5,25 +5,28 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/:postID   | return particular post with comments    | json object | statusCode: 404 | 
-|/boards/posts/:postID  | returns post with postID    | json object | statusCode: 404 |
-|/boards/groups/:groupID  | returns all post of particular group     | json object | statusCode: 404 |
-|/boards/posts/:postID/comments  | returns all comments of particular post     | json object | statusCode: 404 |
+|/groups/:groupID/boards   | return a list of boards with boards information    | json object | statusCode: 404 | 
+|/groups/:groupID/boards/:boardID  | returns a particular board    | json object | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts  | returns all posts with comments    | json object | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID  | return a particular post with comments     | json object | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID/comments  | return all comments   | json object | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID/comments/:commentID  | return a particular comment   | json object | statusCode: 404 |
 
 ####POST
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/posts  | create new post  | statusCode 200 | statusCode: 404 |
-|/boards/posts/:postID/comments  | create new comment for particular post    | statusCode 200 | statusCode: 404 |
+|/groups/:groupID/boards   | create new board    | statusCode: 200 | statusCode: 404 | 
+|/groups/:groupID/boards/:boardID/posts  | create new post    | statusCode: 200 | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID/comments  | create new comment   | statusCode: 200 | statusCode: 404 |
 
 ####PUT
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/boards/posts/:postID  | update post  | statusCode 200 | statusCode: 404 |
-|/boards/comments/:commentID  | update comment  | statusCode 200 | statusCode: 404 |
-
+|/groups/:groupID/boards/:boardID  | update board information    | statusCode: 200 | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID  | update post information     | statusCode: 200 | statusCode: 404 |
+|/groups/:groupID/boards/:boardID/posts/:postID/comments/:commentID  | update comment infromation   | statusCode: 200 | statusCode: 404 |
 
 ### Dummy Json Results
 
