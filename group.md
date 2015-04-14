@@ -5,7 +5,8 @@
 |Ressource   | Description  |
 |---|---|
 |/groups/   | returns active subscribed groups  |
-|/groups/:userid   | returns suggested groups with meta info etc.  |
+|/groups/:userid   | returns suggested groups   |
+|/groups/:id   | return group   |
 
 
 ### Dummy Json Results
