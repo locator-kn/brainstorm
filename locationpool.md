@@ -23,7 +23,7 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 
 |Ressource   | Description  | on Failure |
 |---|---|---|---|
-|/user/:userID/locations/:locationsID  | adds a location into the location pool of the user   |  statusCode: 404 |
+|/user/:userID/locations/  | adds a location into the location pool of the user   |  statusCode: 404 |
 
 //TODO: bulk add??
 
@@ -32,7 +32,7 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 
 |Ressource   | Description  | on Failure |
 |---|---|---|---|
-|/user/:userID/locations/:locationsID  | updates a location of the location pool of the user   |  statusCode: 404 |
+|/user/:userID/locations/  | updates a location of the location pool of the user   |  statusCode: 404 |
 
 
 
