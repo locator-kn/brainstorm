@@ -3,9 +3,10 @@
 ### Beschreibung
 Jeder _local_ hat ein pool an seinen favorisierten location, die er "cool" findet. Eine Location Besteht aus:
  - einem Ort (Name) (o.ä.?)
- - Bilder 
+ - Bilder (+ Thumbnail)
  - Geotag
  - Beschreibung 
+ - URL zu Bild
  - und/oder ???
 
 Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste aller Locations. //TODO: diskutieren.
