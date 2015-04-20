@@ -18,7 +18,7 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/user/:userID/locations/  | returns a locationpool (list) of saved location of the user   | json object | statusCode: 404 |
-|/user/[c:red][:userID]/locations/:locationsID (user id nötig??) | returns a particular saved location of the user | json object | statusCode: 404 |
+|/user/*:userID*/locations/:locationsID (user id nötig??) | returns a particular saved location of the user | json object | statusCode: 404 |
 
 ####POST
 
