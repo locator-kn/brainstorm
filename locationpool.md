@@ -32,7 +32,7 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 
 |Ressource   | Description  | on Failure |
 |---|---|---|---|
-|/user/:userID/locations/  | updates a location of the location pool of the user   |  statusCode: 404 |
+|/user/:userID/locations/:locationsID  | updates a location of the location pool of the user   |  statusCode: 404 |
 
 
 
