@@ -26,7 +26,7 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 |---|---|---|---|
 |/user/:userID/locations/  | adds a location into the location pool of the user   |  statusCode: 404 |
 
-//TODO: bulk add??
+Note: Bulk add will be done if payload is array.
 
 ####PUT
 
