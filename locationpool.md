@@ -13,12 +13,12 @@ Der Locationpool eines Benutzers besteht aus einer _leichtgewichtige_ Liste alle
 
 
 ### Routes
-####GET
+####GET/DELETE
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/user/:userID/locations/  | returns a locationpool (list) of saved location of the user   | json object | statusCode: 404 |
-|/user/*:userID*/locations/:locationsID (user id nötig??) | returns a particular saved location of the user | json object | statusCode: 404 |
+|/user/:userID/locations/  | returns/eletes a locationpool (list) of saved location of the user   | json object | statusCode: 404 |
+|/user/*:userID*/locations/:locationsID (user id nötig??) | returns/delets a particular saved location of the user | json object | statusCode: 404 |
 
 ####POST
 
