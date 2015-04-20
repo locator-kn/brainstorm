@@ -18,3 +18,8 @@
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/trips/:tripID   | update particular trip by id  | statusCode: 200 | statusCode: 404 |
+
+####DELETE
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/trips/:tripID   | delete particular trip by id  | statusCode: 200 | statusCode: 404 |
