@@ -5,15 +5,15 @@
 
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
-|/profile/:ID   | returns profile information for requested user ID  | json object | statusCode: 404 | 
-|/me           | returns profile of current user  | json object | statusCode: 404 |
+|/users/:userID | returns profile information for requested user ID  | json object | statusCode: 404 | 
+|/users/me           | returns profile of current user  | json object | statusCode: 404 |
 
 
 ####POST
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/login   | validate login information  | statusCode: 200 | statusCode: 404 |
-|/me   | update user information  | statusCode: 200 | statusCode: 404 |
+|/users/me   | update user information  | statusCode: 200 | statusCode: 404 |
 
 
 
