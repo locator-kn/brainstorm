@@ -40,5 +40,16 @@ Note: Bulk add will be done if payload is array.
 ### Dummy json results
 
 ```
-
+{
+  "_id:" "1849ef313fbc39f078084f9168000e16",
+  "_rev": "4-c726329a4e810962443ce5a7a176b00c",
+  "title": "Strandbar",
+  "description": "Fett man! Sand und so! Geile Musiiik!!",
+  "city": "constance",
+  "geotag": "",
+  "budget": 100,
+  "pics": [],
+  "category": "studentenshit",
+  "type": "location"
+}
 ```
