@@ -26,7 +26,7 @@
 
 
 ### Dummy Json Results
-##### Specific Trip
+##### Specific Trip - GET /trips/:tripID
 ```
 {
   "_id": "1849ef313fbc39f078084f9168000e16",
