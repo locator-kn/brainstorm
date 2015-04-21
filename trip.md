@@ -26,7 +26,7 @@
 
 
 ### Dummy Json Results
-#### Specific Trip
+##### Specific Trip
 ```
 {
   "_id": "1849ef313fbc39f078084f9168000e16",
@@ -44,7 +44,8 @@
 }
 ```
 
-#### Multiple Trips, filtered by arguments (pics --> titlepic, liefert einfach das erste bild, weitere bilder kommen dann erst in einer extra view, in der obere Anfrage verwendet wird)
+##### Multiple Trips, filtered by arguments 
+(unterschied: pics --> titlepic, liefert einfach das erste bild, weitere bilder kommen dann erst in einer extra view, in der die obere Anfrage verwendet wird)
 ```
 [
                         {
