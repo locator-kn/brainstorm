@@ -14,12 +14,20 @@
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/users           | create new user  | statusCode: 200 | statusCode: 404 |
-|/login   | validate login information  | statusCode: 200 | statusCode: 404 |
 
 ####PUT
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/users/me   | update user information  | statusCode: 200 | statusCode: 404 |
+|/users/me/password   | update user password  | statusCode: 200 | statusCode: 404 |
+|/users/:userID/password | update password of user by id  | statusCode: 200 | statusCode: 404 |
+|/users/:userID | update particular user  | statusCode: 200 | statusCode: 404 | 
+
+####DELETE
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/users/:userID | delete user by userid  | statusCode: 200 | statusCode: 404 | 
+
 
 
 
