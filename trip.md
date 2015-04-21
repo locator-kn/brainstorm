@@ -44,7 +44,7 @@
 }
 ```
 
-##### Multiple Trips, filtered by arguments 
+##### Multiple Trips, filtered by arguments - GET /trips
 (whats the difference? We should provide a thumbnail in the trip overview, not an array of big size pics)
 ```
 [
