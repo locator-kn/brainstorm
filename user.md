@@ -15,7 +15,13 @@
 |---|---|---|---|
 |/users           | create new user  | statusCode: 200 | statusCode: 404 |
 |/login   | validate login information  | statusCode: 200 | statusCode: 404 |
+
+####PUT
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
 |/users/me   | update user information  | statusCode: 200 | statusCode: 404 |
+
+
 
 
 
