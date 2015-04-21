@@ -45,7 +45,7 @@
 ```
 
 ##### Multiple Trips, filtered by arguments 
-(unterschied: pics --> titlepic, liefert einfach das erste bild, weitere bilder kommen dann erst in einer extra view, in der die obere Anfrage verwendet wird)
+(whats the difference? We should provide a thumbnail in the trip overview, not an array of big size pics)
 ```
 [
     {
@@ -60,7 +60,7 @@
         "locations":[
 
         ],
-        "titlePic":[
+        "thumbnail":[
 
         ],
         "category":"halli galli drecksaufest",
@@ -78,7 +78,7 @@
         "locations":[
 
         ],
-        "titlePic":[
+        "thumbnail":[
 
         ],
         "category":"halli galli drecksaufest",
@@ -96,7 +96,7 @@
         "locations":[
 
         ],
-        "titlePic":[
+        "thumbnail":[
 
         ],
         "category":"halli galli drecksaufest",
@@ -114,7 +114,7 @@
         "locations":[
 
         ],
-        "titlePic":[
+        "thumbnail":[
 
         ],
         "category":"halli galli drecksaufest",
