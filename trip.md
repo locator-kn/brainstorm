@@ -28,7 +28,7 @@
 ### Dummy Json Results
 ```
 {
-  "_id:" "1849ef313fbc39f078084f9168000e16",
+  "_id": "1849ef313fbc39f078084f9168000e16",
   "_rev": "4-c726329a4e810962443ce5a7a176b00c",
   "title": "my trip",
   "description": "bla bla bla",
