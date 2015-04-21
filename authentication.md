@@ -16,6 +16,7 @@ The following routes are defined
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/login   | tries to log a user in | statusCode: 200 | statusCode: 401, 401, 400 | 
+|/login/forgot   | if user forget his login credentials | statusCode: 200 | statusCode: 400 | 
 
 ### Dummy Json Results
 
