@@ -8,6 +8,7 @@
 |/trips   | return all trips | json object | statusCode: 404 | 
 |/trips/:tripID   |  return a particular trip by id | json object | statusCode: 404 | 
 |/trips/search   | search for a trip | json object with all matches | statusCode: 404 | 
+|/data/moods   | return all moods as array **toReview** | jason array  | statusCode: 404 | 
 
 
 ####POST
