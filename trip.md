@@ -78,3 +78,26 @@
     }
 ]
 ```
+
+##### Moods
+```
+this.moods = [
+                {
+                    _id: '1',
+                    title: 'Family Fun',
+                    icon: '',
+                    image: '',
+                    description: '',
+                    excludes: [],
+                },
+                {
+                    _id: '2',
+                    title: 'Girls on Tour',
+                    icon: '',
+                    image: '',
+                    description: '',
+                    excludes: ['4', '5'],
+
+                }...
+            ];
+```
