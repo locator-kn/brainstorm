@@ -4,7 +4,7 @@
 Jeder _local_ hat ein pool an seinen favorisierten location, die er "cool" findet. Eine Location Besteht aus:
  - einem Ort (Name) (o.ä.?)
  - Bilder (+ Thumbnail)
- - Geotag
+ - Geotag  // Evtl. in der Desktop Version mit ner GoogleMap umsetzen?
  - Beschreibung 
  - URL zu Bild
  - und/oder ???
