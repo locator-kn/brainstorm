@@ -90,6 +90,7 @@ this.moods = [
                     image: '',
                     description: '',
                     excludes: [],
+                    type: 'mood'
                 },
                 {
                     _id: '2',
@@ -98,6 +99,7 @@ this.moods = [
                     image: '',
                     description: '',
                     excludes: ['4', '5'],
+                    type: 'mood'
 
                 }...
             ];
