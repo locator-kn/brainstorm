@@ -35,18 +35,15 @@
 [
     {
         "_id": "1",
-        "name": "couch",
-        selected: false
+        "name": "couch"
     },
     {
         "_id": "2",
-        "name": "room",
-        selected: false
+        "name": "room"
     },
     {
         "_id": "3",
-        "name": "holiday_flat",
-        selected: false
+        "name": "holiday_flat"
     }
 ]
 ```
@@ -60,9 +57,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '2',
@@ -70,9 +65,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: ['4', '5'],
-        selected: false,
-        excluded: 0
+        excludes: ['4', '5']
     },
     {
         _id: '3',
@@ -80,9 +73,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '4',
@@ -90,9 +81,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '5',
@@ -100,9 +89,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '6',
@@ -110,9 +97,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '7',
@@ -120,9 +105,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '8',
@@ -130,9 +113,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '9',
@@ -140,9 +121,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '10',
@@ -150,9 +129,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '11',
@@ -160,9 +137,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     },
     {
         _id: '12',
@@ -170,9 +145,7 @@
         icon: '',
         image: '',
         description: '',
-        excludes: [],
-        selected: false,
-        excluded: 0
+        excludes: []
     }
 ]
 ```
