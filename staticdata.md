@@ -15,17 +15,20 @@
     {
         "_id": "551bd8d98fe8ee54fe79fbe0",
         "name": "Konstanz",
-        "plz": 78764
+        "plz": 78764,
+        "type": "city"
     },
     {
         "_id": "551bd8d96ac6271311173b03",
         "name": "Berlin",
-        "plz": 13545
+        "plz": 13545,
+        "type": "city"
     },
     {
         "_id": "551bd8d9c528474af52dbd7e",
         "name": "Hamburg",
-        "plz": 24567
+        "plz": 24567,
+        "type": "city"
     }
 ]
 ```
@@ -35,15 +38,18 @@
 [
     {
         "_id": "1",
-        "name": "couch"
+        "name": "couch",
+        "type": "acc"
     },
     {
         "_id": "2",
-        "name": "room"
+        "name": "room",
+        "type": "acc"
     },
     {
         "_id": "3",
-        "name": "holiday_flat"
+        "name": "holiday_flat",
+        "type": "acc"
     }
 ]
 ```
@@ -57,7 +63,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '2',
@@ -65,7 +72,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: ['4', '5']
+        excludes: ['4', '5'],
+        "type": "mood"
     },
     {
         _id: '3',
@@ -73,7 +81,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '4',
@@ -81,7 +90,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '5',
@@ -89,7 +99,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '6',
@@ -97,7 +108,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '7',
@@ -105,15 +117,18 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '8',
         title: 'Leckermäulchen',
-        icon: '',
+        icon: '',,
+        
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '9',
@@ -121,7 +136,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '10',
@@ -129,7 +145,9 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
+        
     },
     {
         _id: '11',
@@ -137,7 +155,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     },
     {
         _id: '12',
@@ -145,7 +164,8 @@
         icon: '',
         image: '',
         description: '',
-        excludes: []
+        excludes: [],
+        "type": "mood"
     }
 ]
 ```
