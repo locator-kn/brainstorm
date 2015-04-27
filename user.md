@@ -41,6 +41,7 @@
    picture: 'data:image/jpeg;base64,/9j/4QAY...',
    name: 'Doe',
    surname: 'John',
+   description: 'Ich bin Steffen Ich bin Steffen, Steffen wollt ich schon immer sein',
    mail: 'john.doe@info.de',
    password: 'secret',
    type: 'user'
