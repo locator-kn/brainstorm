@@ -7,7 +7,8 @@
 |---|---|---|---|
 |/trips   | return all trips | json object | statusCode: 404 | 
 |/trips/:tripID   |  return a particular trip by id | json object | statusCode: 404 | 
-|/trips/search   | search for a trip | json object with all matches | statusCode: 404 | 
+|/trips/konstanz/?budget=100&checkin=01.08.2010&checkout=02.08.2010   | search for a trip | json object with all matches | statusCode: 404 | 
+/armani_braun/?budget=100&season_name=frühjahr-sommer
 |/data/moods   | return all moods as array **toReview** | jason array  | statusCode: 404 | 
 
 
