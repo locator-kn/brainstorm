@@ -9,7 +9,7 @@
 |/trips/:tripID   |  return a particular trip by id | json object | statusCode: 404 | 
 |trips/(see below)   | search for a trip | json object with all matches | statusCode: 404 | 
 |/data/moods   | return all moods as array **toReview** | jason array  | statusCode: 404 | 
-*/trips/konstanz/?budget=100&checkin=01.08.2010&checkout=02.08.2010
+*/trips/konstanz/?budget=100&checkin=01.08.2010&checkout=02082010&persons=3
 
 
 ####POST
@@ -40,6 +40,7 @@
   "city": "constance",
   "start_date": "2015-04-20T00:00:00.000Z",
   "end_date": "2015-04-23T00:00:00.000Z",
+  "persons": "3",
   "budget": 100,
   "locations": [],
   "pics": [],
