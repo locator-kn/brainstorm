@@ -38,18 +38,21 @@
 [
     {
         "_id": "1",
-        "name": "couch",
-        "type": "acc"
+        "name": "Couch",
+        "query_name": "couch",
+        "type": "accommodation"
     },
     {
         "_id": "2",
-        "name": "room",
-        "type": "acc"
+        "name": "Room",
+        "query_name": "room",
+        "type": "accommodation"
     },
     {
         "_id": "3",
-        "name": "holiday_flat",
-        "type": "acc"
+        "name": "Holiday Flat",
+        "query_name": "holiday_flat",
+        "type": "accommodation"
     }
 ]
 ```
@@ -62,6 +65,7 @@
         title: 'Family Fun',
         icon: '',
         image: '',
+        "query_name": "family_fun",
         description: '',
         excludes: [],
         "type": "mood"
@@ -71,6 +75,7 @@
         title: 'Girls on Tour',
         icon: '',
         image: '',
+        "query_name": "grils_on_tour",
         description: '',
         excludes: ['4', '5'],
         "type": "mood"
@@ -80,6 +85,7 @@
         title: 'Buddytrip',
         icon: '',
         image: '',
+        "query_name": "buddytrip",
         description: '',
         excludes: [],
         "type": "mood"
@@ -89,80 +95,7 @@
         title: 'Singles unter sich',
         icon: '',
         image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '5',
-        title: 'Sturm der Liebe',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '6',
-        title: 'Halligalli Drecksaufest',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '7',
-        title: 'Muskelkater',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '8',
-        title: 'Leckermäulchen',
-        icon: '',,
-        
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '9',
-        title: 'Grüner gehts nicht',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '10',
-        title: 'Entspannung pur',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-        
-    },
-    {
-        _id: '11',
-        title: 'Kultur und Sightseeing',
-        icon: '',
-        image: '',
-        description: '',
-        excludes: [],
-        "type": "mood"
-    },
-    {
-        _id: '12',
-        title: 'Haste nicht gesehn',
-        icon: '',
-        image: '',
+        "query_name": "singles_unter_sich",
         description: '',
         excludes: [],
         "type": "mood"
