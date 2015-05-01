@@ -43,6 +43,7 @@ Alternative:
   "city": "constance",
   "start_date": "2015-04-20T00:00:00.000Z",
   "end_date": "2015-04-23T00:00:00.000Z",
+  "days": "2",
   "persons": "3",
   "budget": 100,
   "locations": [],
@@ -65,6 +66,7 @@ Alternative:
         "city":"constance",
         "start_date":"2015-04-20T00:00:00.000Z",
         "end_date":"2015-04-23T00:00:00.000Z",
+        "days": "2",
         "budget":100,
         "locations":[
 
