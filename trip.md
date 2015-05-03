@@ -71,6 +71,7 @@
         "_id":"1849ef313fbc39f078084f9168000e16",
         "_rev":"4-c726329a4e810962443ce5a7a176b00c",
         "title":"my trip",
+        "userid":"info@locator-app.com",
         "local": "42312312",
         "description":"bla bla bla",
         "postcode": "78467",
