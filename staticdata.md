@@ -7,7 +7,7 @@
 |/data/moods | returns all available moods  | json object | statusCode: 404 | 
 |/data/acc           | returns all available accomodations   | json object | statusCode: 404 |
 
-### Dummy json results
+### Dummy json results (Query_names without underscore!!)
 
 #### cities
 ```
@@ -51,7 +51,7 @@
     {
         "_id": "3",
         "name": "Holiday Flat",
-        "query_name": "holiday_flat",
+        "query_name": "holidayflat",
         "type": "accommodation"
     }
 ]
@@ -65,7 +65,7 @@
         title: 'Family Fun',
         icon: '',
         image: '',
-        "query_name": "family_fun",
+        "query_name": "familyfun",
         description: '',
         excludes: [],
         "type": "mood"
@@ -75,7 +75,7 @@
         title: 'Girls on Tour',
         icon: '',
         image: '',
-        "query_name": "grils_on_tour",
+        "query_name": "grilsontour",
         description: '',
         excludes: ['4', '5'],
         "type": "mood"
@@ -95,7 +95,7 @@
         title: 'Singles unter sich',
         icon: '',
         image: '',
-        "query_name": "singles_unter_sich",
+        "query_name": "singlesuntersich",
         description: '',
         excludes: [],
         "type": "mood"
