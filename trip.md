@@ -7,10 +7,8 @@
 |---|---|---|---|
 |/trips   | return all trips | json object | statusCode: 404 | 
 |/trips/:tripID   |  return a particular trip by id | json object | statusCode: 404 | 
-|/trips/*(see below)   | search for a trip | json object with all matches | statusCode: 404 |
-*/trips?city=konstanz&budget=100&checkin=2015-05-17&checkout=2015-05-19&persons=3
-Alternative:
-/trips/78467.78334_mood1.mood2.mood3/?budget=100&checkin=2015-05-17&checkout=2015-05-19&persons=3
+|/trips/search/*(see below)   | search for a trip | json object with all matches | statusCode: 404 |
+*/trips/search/78467_mood1.mood2.mood3/?budget=100&checkin=2015-05-17&checkout=2015-05-19&persons=3
 
 
 
@@ -28,6 +26,16 @@ Alternative:
 |Ressource   | Description  |  on Success | on Failure |
 |---|---|---|---|
 |/trips/:tripID   | delete particular trip by id  | statusCode: 200 | statusCode: 404 |
+
+### Search
+
+|Parameter| optional / required | info |
+|---|---|---|
+|city| required | /trips/**city**|
+|mood| optional | /trips/**_mood1_mood2_mood3**|
+|city/mood| required| /trips/**city_mood1_mood2**|
+|checkin/checkout| optional | /trips/city_mood1/**?checkin=2015-05-15&checkout=2015-05-05**|
+|persons|optional|/trips/city_mood1/**?persons=3**|
 
 
 ### Dummy Json Results
