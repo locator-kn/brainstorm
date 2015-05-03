@@ -7,8 +7,7 @@
 |---|---|---|---|
 |/trips   | return all trips | json object | statusCode: 404 | 
 |/trips/:tripID   |  return a particular trip by id | json object | statusCode: 404 | 
-|/trips/*(see below)   | search for a trip | json object with all matches | statusCode: 404 | 
-|/data/moods   | return all moods as array **toReview** | jason array  | statusCode: 404 | 
+|/trips/*(see below)   | search for a trip | json object with all matches | statusCode: 404 |
 */trips?city=konstanz&budget=100&checkin=2015-05-17&checkout=2015-05-19&persons=3
 Alternative:
 /trips/78467.78334_mood1.mood2.mood3/?budget=100&checkin=2015-05-17&checkout=2015-05-19&persons=3
