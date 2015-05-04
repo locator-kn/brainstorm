@@ -29,7 +29,7 @@
 |/trips/:tripID   | delete particular trip by id  | statusCode: 200 | statusCode: 404 |
 
 ### Search
-
+#### parameters
 |Parameter| optional / required | info |
 |---|---|---|
 |city| required | /trips/**city**|
@@ -40,7 +40,15 @@
 |persons|optional|/trips/city_mood1/**?persons=3**|
 |budget|optional|/trips/city_mood1/**?budget=56**|
 
-
+#### result relevance
+|parameter|relevance|
+|---|---|
+|moods|0.4/(number of moods)|
+|budget|0.1|
+|persons|0.2|
+|days|0.2|
+|accommodations|0.1|
+|**SUM:**|**1.0**|
 ### Dummy Json Results
 ##### Specific Trip - GET /trips/:tripID
 ```
