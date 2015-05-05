@@ -49,6 +49,8 @@
 |days|0.2|
 |accommodations|0.1|
 |**SUM:**|**1.0**|
+
+!!! Wichtig: Wenn nicht alle parameter übermittelt werden, soll die Summe aller Parameter trotzdem 1 sein! (Übereinstimmungen / Summe der übermittelten Parameter) 
 ### Dummy Json Results
 ##### Specific Trip - GET /trips/:tripID
 ```
