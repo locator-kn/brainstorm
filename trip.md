@@ -51,6 +51,11 @@
 |**SUM:**|**1.0**|
 
 !!! Wichtig: Wenn nicht alle parameter übermittelt werden, soll die Summe aller Parameter trotzdem 1 sein! (Übereinstimmungen / Summe der übermittelten Parameter) 
+
+##### list for couchdb - still in process
+```
+   "meineListe": "function (head, req) { var row;var result = []; var queryParams = JSON.stringify(req.query);while (row = getRow()) {if(queryParams != '{}' && (row.key == req.query.city)) { result.push(row.value);} }send(JSON.stringify(result))}"
+```
 ### Dummy Json Results
 ##### Specific Trip - GET /trips/:tripID
 ```
