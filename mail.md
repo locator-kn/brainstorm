@@ -24,7 +24,6 @@
   * text
   * ...
 * SMTP setup
-* 
 
 ### functions
 * send mail to all user
@@ -33,3 +32,8 @@
 * load templates
 * edit templates
 * add attachment
+
+### other stuff to check
+* seccurity
+* mail 
+* Server
