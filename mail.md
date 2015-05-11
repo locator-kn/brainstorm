@@ -1,12 +1,12 @@
 
 ## possible plugins to use
 * simplesmpt
-* nodemailer
-* nodemailer-html-to-text
+* **nodemailer**
+* **nodemailer-html-to-text**
 * nodemailer-markdown
 
 ## possible uses
-* registration mail
+* **registration mail**
 * newsletter
 * notification if new trips available
 * first contact message for trip - after timeout of ~30min 
@@ -35,5 +35,5 @@
 
 ### other stuff to check
 * seccurity
-* mail 
+* mail addr
 * Server
