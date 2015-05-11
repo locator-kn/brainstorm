@@ -1,4 +1,10 @@
 
+## possible plugins to use
+* simplesmpt
+* nodemailer
+* html-to-text
+* nodemailer-markdown
+
 ## possible features
 * registration mail
 * newsletter
