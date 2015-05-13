@@ -40,6 +40,14 @@
 * Server
 * 
 
+####GET
+
+|Ressource   | Description  |  on Success | on Failure |
+|---|---|---|---|
+|/mail/registration/:userid  | send mail to confirm registration | json object | statusCode: 404 |
+|/mail/forgotten/password/:userid  | send mail to generate new password for user 'uderid'   | json object | statusCode: 404 |
+
+
 ### Dummy Json
 ```
 {
