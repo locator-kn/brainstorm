@@ -51,12 +51,12 @@
 ### Dummy Json
 ```
 {
-   _id: 'asdf97a87dsf689as7d6fas87d',
-   _rev: '1-dbe58c4eb46dc66b3b62ed4dfab2f3fe',
-   title: 'Complete Registration on locator-app.de',
-   linktext: 'Click here to complete your registration on locator-app.de',
-   bodytext: 'You recently signed up for locator. Please confirm your email address to get started!',
-   type: 'registration_mail'
+   "_id": "ed5ad22e5fc3cb76148be1935f3f0f43",
+   "_rev": "1-1e1d43f3df9b888fe9fa18cdcab45864",
+   "title": "Complete Registration on locator-app.de",
+   "linktext": "Click here to complete your registration on locator-app.de",
+   "bodytext": "You recently signed up for locator. Please confirm your email address to get started!",
+   "type": "registration_mail"
 }
  
 
