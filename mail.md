@@ -56,7 +56,7 @@
    title: 'Complete Registration on locator-app.de',
    linktext: 'Click here to complete your registration on locator-app.de',
    bodytext: 'You recently signed up for locator. Please confirm your email address to get started!',
-   type: 'mail'
+   type: 'registration_mail'
 }
  
 
