@@ -52,12 +52,11 @@
 ```
 {
    "_id": "ed5ad22e5fc3cb76148be1935f3f0f43",
-   "_rev": "1-1e1d43f3df9b888fe9fa18cdcab45864",
+   "_rev": "2-28cc9b06f69738784e8ac4164cd1772c",
    "title": "Complete Registration on locator-app.de",
    "linktext": "Click here to complete your registration on locator-app.de",
    "bodytext": "You recently signed up for locator. Please confirm your email address to get started!",
-   "type": "registration_mail"
+   "type": "mail_registration"
 }
- 
 
 ```
