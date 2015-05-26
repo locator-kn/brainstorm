@@ -1,4 +1,5 @@
 ##getConversation
+Get messages for a specific conversation
 
 ```
 [
@@ -18,7 +19,9 @@
 ```
 
 ##getConversations
-## /api/v1/my/conversations  
+### /api/v1/my/conversations  
+get all conversations
+
 ```
 [
   {
