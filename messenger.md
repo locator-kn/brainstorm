@@ -18,6 +18,7 @@
 ```
 
 ##getConversations
+## /api/v1/my/conversations  
 ```
 [
   {
