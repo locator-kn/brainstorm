@@ -1,4 +1,4 @@
-# Documents
+# Deprecated look in ark-locationpool
 
 ### Beschreibung
 Jeder _local_ hat ein pool an seinen favorisierten location, die er "cool" findet. Eine Location Besteht aus:
